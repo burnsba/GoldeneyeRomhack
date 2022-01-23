@@ -9,8 +9,10 @@ From left to right:
 - Current forward/back speed ("! 1.35").
 - Max run speed indicator ("!")
 - Strafe speed ("<> -1.00")
-- Mission timer ("T: 8.32")
-- Lag counter ("LAG: 033")
+- Mission timer ("T:10.80")
+- Lag counter ("LAG:038")
+- Props drawn this update ("P:022")
+- Guards visible on screen / guards alive ("G:01/38")
 
 ### End screen: ###
 
