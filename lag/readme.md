@@ -1,5 +1,7 @@
 Quick ROM hack to show timing information. This adds a HUD to the top of the screen in level.
 
+xdelta patch should be applied on a NTSC ROM (.z64) with sha1 `ABE01E4AEB033B6C0836819F549C791B26CFDE83`
+
 ### In level: ###
 
 ![hud demo](hud.jpg)
@@ -39,7 +41,7 @@ controller 2: Z + DPAD Down
 
 **Restart stage:**
 
-controller 1: Z + DPAD Down + A + B + Start
+controller 1: Z + DPAD Down + Start
 
 or
 
