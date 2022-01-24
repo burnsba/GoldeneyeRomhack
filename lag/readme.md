@@ -1,6 +1,13 @@
 Quick ROM hack to show timing information. This adds a HUD to the top of the screen in level.
 
-xdelta patch should be applied on a NTSC ROM (.z64) with sha1 `ABE01E4AEB033B6C0836819F549C791B26CFDE83`
+All three versions of the game have an xdelta patch, which should be applied on corresponding .z64 ROM with the following SHA1 hash:
+
+    NTSC  : patch-NTSC.xdelta   `ABE01E4AEB033B6C0836819F549C791B26CFDE83`
+    NTSC-J: patch-NTSC-J.xdelta `2A5DADE32F7FAD6C73C659D2026994632C1B3174`
+    EU    : patch-EU.xdelta     `167C3C433DEC1F1EB921736F7D53FAC8CB45EE31`
+    
+(I have only tested NTSC)
+    
 
 ### In level: ###
 
