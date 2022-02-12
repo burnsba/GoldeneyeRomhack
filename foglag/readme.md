@@ -19,11 +19,11 @@ Press C UP and C DOWN to cycle through available options. Press A to load enviro
 
 Second HUD screen:
 
-![environment load screen](environment_load.jpg)
+![environment load screen](environment_load.png)
 
 This forces `Environment` settings to be loaded. This is not how the game normally works, but may be useful for testing. This is a list of all available settings, plus two more I added just for fun ("10/500" and "10/50").
 
-![level load screen](level_load.jpg)
+![level load screen](level_load.png)
 
 Cycle though levels and load the level settings the way the game normally loads settings. Use this screen to test theories, .e.g, load Depot then load Silo, etc.
 
