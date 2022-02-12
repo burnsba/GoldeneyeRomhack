@@ -65,7 +65,7 @@ L shoulder trigger
 
 **Environment HUD shortcuts**
 
-controller 1: C UP, C Down -- change selected option
+controller 1: C UP, C Down -- change selected option  
 controller 1: A -- load selected option
 
 ### Notes: ###
