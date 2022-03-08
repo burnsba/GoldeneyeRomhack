@@ -56,8 +56,8 @@ typedef enum WATCH_INDEX {
 I also want strongly typed row definitions for the current row the user has selected on the page, so I will add a new enum to list the options rows on the page.
 ```
 typedef enum WATCH_ROMHACK_OPTIONS_INDEX {
-    ROMHACK_OPTIONS_INDEX_HUD = 0,
-    ROMHACK_OPTIONS_INDEX_SPLITS,
+    ROMHACK_OPTIONS_INDEX_LINEMODE = 0,
+    ROMHACK_OPTIONS_INDEX_TEST,
     ROMHACK_OPTIONS_INDEX_LR,
     ROMHACK_OPTIONS_INDEX_UD,
     ROMHACK_OPTIONS_LAST
@@ -69,7 +69,7 @@ typedef enum WATCH_ROMHACK_OPTIONS_INDEX {
 In the `init_watch_at_start_of_stage` method I added a statement to set the default row.
 
 ```
-romhack_options_index = ROMHACK_OPTIONS_INDEX_HUD;
+romhack_options_index = ROMHACK_OPTIONS_INDEX_LINEMODE;
 ```
 
 The regular options are loaded from save file, but that won't be used here. If a non-default value were used, it should be setup here, but the options in this tutorial are defaulted to zero, so there's nothing else to setup.
@@ -81,8 +81,8 @@ I setup a new `game_options` array for the new watch page. This follows how the 
 ```
 struct game_options romhack_options_entries[] = {
     // I added text to LoptionsE starting on line 62
-    { {TEXT(LOPTIONS,62), TEXT(LOPTIONS,0x1A), TEXT(LOPTIONS,0x19), 0}, 0},  // HUD
-    { {TEXT(LOPTIONS,63), TEXT(LOPTIONS,0x1A), TEXT(LOPTIONS,0x19), 0}, 0},  // Splits
+    { {TEXT(LOPTIONS,62), TEXT(LOPTIONS,0x1A), TEXT(LOPTIONS,0x19), 0}, 0},  // line mode
+    { {TEXT(LOPTIONS,63), TEXT(LOPTIONS,0x1A), TEXT(LOPTIONS,0x19), 0}, 0},  // test
     { {TEXT(LOPTIONS,64), TEXT(LOPTIONS,66), TEXT(LOPTIONS,67), 0}, 0},  // L/R
     { {TEXT(LOPTIONS,65), TEXT(LOPTIONS,68), TEXT(LOPTIONS,69), 0}, 0}  // U/D
 };
@@ -138,7 +138,7 @@ void romhack_options_navigation(void)
 
     if (aux >= ROMHACK_OPTIONS_LAST)
     {
-        romhack_options_index = ROMHACK_OPTIONS_INDEX_HUD;
+        romhack_options_index = ROMHACK_OPTIONS_INDEX_LINEMODE;
     }
     else if (aux < 0)
     {
