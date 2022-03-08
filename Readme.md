@@ -10,7 +10,7 @@ Romhacks:
 
 - [lag](lag/readme.md): Main lag testing romhack, shows mission timer, props on screen, guards on screen and more
 - [foglag](foglag/readme.md): Fork of lag test romhack, used to load environment settings
-- [shotvis](shotviz/readme.md): Show guard alert status and audio threshold indicator
+- [shotvis](shotviz/readme.md): Show guard shot intolerance and audio threshold indicator
 
 # Dev Tutorials
 
