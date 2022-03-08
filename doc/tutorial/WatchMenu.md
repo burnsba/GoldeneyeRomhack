@@ -422,11 +422,26 @@ The watch uses a buffer in the player struct for storing verteces and DL list fo
 
 Because the player struct is not fully shiftable, I had to continue the screen select rectangles elsewhere. I added these to .data in bondview.c. Note: I was having a graphics issue; I think this might be due to alignment, but not using index zero of the new vertex array seems to fix the issue. No idea.
 
+(#defines explained below)  
+
 ```
 // +1 for end display list command
 Gfx g_romhack_extract_buffer_for_watch_greenbackdrop_DL[WATCH_ROMHACK_NUMBER_SCREENS + 1] = {0};
 // +1 because I can't figure out why starting at index zero causes graphics glitch
 struct WatchRectangle g_romhack_buffer_for_watch_greenbackdrop_vertices[WATCH_ROMHACK_NUMBER_SCREENS + 1] = {0};
+```
+
+The watch.h file needs to be updated to add new #define definitions since the `WATCH_NUMBER_SCREENS` can't be modified. A new value is added to count the number of new screens being added, and the rectangle and spacer macros were updated. The header should now have
+
+```
+#define WATCH_NUMBER_SCREENS 5
+
+#define WATCH_ROMHACK_NUMBER_SCREENS 1
+
+// default: 100
+#define WATCH_SCREEN_SELECT_RECTANGLE_WIDTH   (s32)(WATCH_SCREEN_SELECT_TOTAL_WIDTH / (WATCH_NUMBER_SCREENS + WATCH_ROMHACK_NUMBER_SCREENS + 1))
+// default: 25
+#define WATCH_SCREEN_SELECT_SPACER_WIDTH      (s32)(WATCH_SCREEN_SELECT_RECTANGLE_WIDTH / (WATCH_NUMBER_SCREENS + WATCH_ROMHACK_NUMBER_SCREENS - 1))
 ```
 
 Add the extern definitions for the above to bondview.h for use in watch.c.
