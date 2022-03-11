@@ -20,3 +20,4 @@ Tutorials:
 
 - [Add HUD](lag/hud_readme.md): Outline of how I added hud to the lag romhack
 - [Custom Watch Screen](doc/tutorial/WatchMenu.md): Walkthrough of changes required to add a custom watch screen
+- [Watch screen select color](doc/tutorial/WatchSelectedRectangleColor.md): A quick note on how to make the watch screen indicator color cycle from a convenient timer
