@@ -54,8 +54,8 @@ Standard invisibility cheat with some additional changes. Sets drone gun aim dis
 - Facility: Trev, Dr. Doak
 - Bunker 1: Boris
 - Bunker 2: Natalya
-- Statue: Trevelyn, Natalya
-- Archives: Valentine, Mishkin
+- Statue: Trevelyn, Valentine
+- Archives: Natalya, Mishkin
 - Streets: Valentine
 - Train: Xenia, Ouromov, Natalya
 - Control: Natalya
