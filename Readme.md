@@ -23,3 +23,4 @@ Tutorials:
 - [Custom Watch Screen](doc/tutorial/WatchMenu.md): Walkthrough of changes required to add a custom watch screen
 - [Watch screen select color](doc/tutorial/WatchSelectedRectangleColor.md): A quick note on how to make the watch screen indicator color cycle from a convenient timer
 - [Disable all security cameras](doc/tutorial/DisableCctv.md): helper method to disable all cameras
+- [runtime guard toggle](doc/tutorial/ToggleGuards.md): how I toggle guards at runtime
