@@ -12,7 +12,7 @@ Romhacks:
 - [foglag](foglag/readme.md): Fork of lag test romhack, used to load environment settings
 - [shotvis](shotviz/readme.md): Show guard shot intolerance and audio threshold indicator
 - [arlene](arlene/readme.md): r-lean practice romhack
-- [valstrafe](valstrafe/readme.me): Val strafe practice. Shows Val travel distance, time of encounter, and speed.
+- [valstrafe](valstrafe/readme.md): Val strafe practice. Shows Val travel distance, time of encounter, and speed.
 
 # Dev Tutorials
 
