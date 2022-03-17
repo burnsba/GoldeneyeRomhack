@@ -13,6 +13,7 @@ Romhacks:
 - [shotvis](shotviz/readme.md): Show guard shot intolerance and audio threshold indicator
 - [arlene](arlene/readme.md): r-lean practice romhack
 - [valstrafe](valstrafe/readme.md): Val strafe practice. Shows Val travel distance, time of encounter, and speed.
+- [benchmark](benchmark/readme.md): benchmark TAS loop for testing theories and data collection
 
 # Dev Tutorials
 
