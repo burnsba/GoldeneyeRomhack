@@ -12,15 +12,16 @@ The level continuous loop until you press **L Trigger**. All other controller in
 
 Here are the different "modes" to benchmark. Choose the level to run that test.
 
-facility: neutral look, switch to unarmed
-runway: "default", neutral look, pp7 out
-surface: neutral look, double grenade launchers w/ firing
-surface: neutral look, double grenade launchers passive
+facility: neutral look, switch to unarmed  
+runway: "default", neutral look, pp7 out  
+surface: neutral look, double grenade launchers w/ firing  
+surface: neutral look, double grenade launchers passive  
 
-frigate: full lookdown, switch to unarmed
-surface 2: full lookdown, pp7 out
-bunker 2: full lookdown, double grenade launchers w/ firing
-statue: full lookdown, double grenade launchers passive
+  
+frigate: full lookdown, switch to unarmed  
+surface 2: full lookdown, pp7 out  
+bunker 2: full lookdown, double grenade launchers w/ firing  
+statue: full lookdown, double grenade launchers passive  
 
 # TAS
 
