@@ -10,6 +10,11 @@ The level will continuously loop until you press **L Trigger**. You can pause to
 
 Note: you need a clean quit out (not L Trigger) to save settings.
 
+# Version
+
+2022-03-18 (v1.1): Added variance to end screen for statistical analysis.
+2022-03-17 (v1.0): initial release
+
 # Watch menu
 
 I added a watch screen:
