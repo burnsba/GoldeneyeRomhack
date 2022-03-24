@@ -8,6 +8,8 @@ youtube overview: https://youtu.be/fxueQpCEoYw
 
 The NTSC-U xdelta patch should be applied against US NTSC .z64 with SHA1 `ABE01E4AEB033B6C0836819F549C791B26CFDE83`.
 
+2022-03-23 (v1.1): Add "timer mode", with "default" and "Val" option. 
+2022-03-12 (v1.0): initial release  
 
 # User Interface
 
@@ -35,6 +37,7 @@ From top to bottom:
 - guards: toggles guard spawns on or off. Value should be saved and loaded with the current folder.
 - "inf. Val": Infinite Val timer. Val event (Streets, Statue) will not end when this option is enabled. Value should be saved and loaded with the current folder.
 - aim reset: Press the "aim" key to reset the event stats. This is the R trigger for 1.x controls, and Z trigger (left controller) for 2.x. Value should be saved and loaded with the current folder.
+- timer mode: "Val" mode will stop the onscreen mission timer the frame that Val line of sight check succeeds.
 
 # +Invisibility
 Standard invisibility cheat with some additional changes. ~Sets drone gun aim distance to 1cm.~ (not included) ~Periodically resets security camera "seen Bond" internal count so that alarm threshold is never reached~ (not included). Allows line of sight check to succeed for the following:
