@@ -14,7 +14,7 @@ Romhacks:
 - [arlene](arlene/readme.md): r-lean practice romhack
 - [valstrafe](valstrafe/readme.md): Val strafe practice. Shows Val travel distance, time of encounter, and speed.
 - [benchmark](benchmark/readme.md): benchmark TAS loop for testing theories and data collection
-- [splits](gsplits/readme.md): byuld-your-own splits practice rom
+- [splits](gsplits/readme.md): build-your-own splits practice rom
 
 # Dev Tutorials
 
