@@ -5,6 +5,8 @@ Current xdelta patch: [patch-NTSC-0.9b.xdelta](patch-NTSC-0.9b.xdelta)
 
 Should be applied against NTSC .z64 with SHA1 `ABE01E4AEB033B6C0836819F549C791B26CFDE83`
 
+Video detailed explanation and tutorial: [https://www.youtube.com/watch?v=k5r-XYgHBnU](https://www.youtube.com/watch?v=k5r-XYgHBnU).
+
 # Purpose
 
 The goal is to provide a test environment on console that you can configure from within the game itself. Contrast this with any other (so far) available romhack that requires using the PerfectGold setup editor to tune parameters, change starting position, etc.
