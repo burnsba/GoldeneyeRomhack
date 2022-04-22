@@ -8,7 +8,7 @@ youtube overview: https://youtu.be/fxueQpCEoYw
 
 The NTSC-U xdelta patch should be applied against US NTSC .z64 with SHA1 `ABE01E4AEB033B6C0836819F549C791B26CFDE83`.
 
-2022-03-23 (v1.1): Add "timer mode", with "default" and "Val" option. 
+2022-03-23 (v1.1): Add "timer mode", with "default" and "Val" option.   
 2022-03-12 (v1.0): initial release  
 
 # User Interface
