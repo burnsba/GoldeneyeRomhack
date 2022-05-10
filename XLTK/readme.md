@@ -4,6 +4,8 @@ Short description:
 
 Choose any set of objectives for any difficulty; adds additional challenge modes.
 
+Short (44 seconds) youtube demo: https://www.youtube.com/watch?v=5AeiRSg-5eE
+
 Long description:
 
 Difficulty is separated from objectives now. LTK, LTK Practice, DLTK, and DLTK Practice are added as selectable difficulties. Now it is possible to play LTK with Agent objectives.
