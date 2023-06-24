@@ -16,6 +16,7 @@ Romhacks:
 - [benchmark](benchmark/readme.md): benchmark TAS loop for testing theories and data collection
 - [splits](gsplits/readme.md): build-your-own splits practice rom
 - [XLTK](XLTK/readme.md): Extended License To Kill romhack
+- [OFOS Runway](ofos_runway/readme.md): Practice OFOS Runway
 
 # Dev Tutorials
 
