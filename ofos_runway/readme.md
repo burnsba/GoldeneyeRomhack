@@ -36,3 +36,5 @@ controller 2: Z + Start
 ### Notes: ###
 
 All cheats and stages are unlocked. Cinema #1 (the 2.4 lure one on Runway) is always chosen regardless of stage.
+
+Props start at zero `damage` and work towards `maxdamage`. The airplain will explose at 20,000 damage.
