@@ -17,6 +17,7 @@ Romhacks:
 - [splits](gsplits/readme.md): build-your-own splits practice rom
 - [XLTK](XLTK/readme.md): Extended License To Kill romhack
 - [OFOS Runway](ofos_runway/readme.md): Practice OFOS Runway
+- [Bond speed](bondspeed/readme.md): Show Bond's actual movement speed
 
 # Dev Tutorials
 
