@@ -1,6 +1,6 @@
 # Bond speed rom
 
-This romhack is designed to show Bond's actual speed as displacement per frame.
+This romhack is designed to show Bond's actual speed as displacement per update/frame.
 
 # Version
 
