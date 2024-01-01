@@ -20,7 +20,7 @@ Minimum lower angle in the tank has been lowered to -40 degrees from -20. You ca
 
 Version 1.1
 
-- Require expansion pak; fix texture issues
+- Require expansion pak; fix texture issues (thanks Axdoomer)
 - Dont collide with characters if not moving (fixes scientists)
 - Adjust tiny Bond perspective, looks closer to riding regular tank now, but smaller.
 - Adjust tank max speed
