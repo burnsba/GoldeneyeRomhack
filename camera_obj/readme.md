@@ -18,13 +18,13 @@ Phase 1 consists of three and a half conditions to check for:
 
 1. Is the prop on screen.
 2. Is the render distance positive (is it in front of Bond).
-3. Is the target destgroyed.
+3. Is the target destroyed.
 
 The last "half" condition is a function call to get the prop location, but will fail if it's not on screen (which was just checked).
 
 Being "on screen" is a bit of a vague concept. The most important consideration is whether the room is loaded or not. For example on Silo, the Satellite can't be onscreen before the door starts opening which loads the room. But if the room is loaded, the way the game culls objects is not very sophisticated so for the most part looking towards the object will be sufficient.
 
-If the above conditions pass the code continues to Phase 2. This code checks that the prop is rendered within the screen. There are 8 conditions, thought it appears they are spread over 5 statements.
+If the above conditions pass the code continues to Phase 2. This code checks that the prop is rendered within the screen. There are 8 conditions spread over 5 statements.
 
 1. The left of player screen is to the left of the prop right edge.
 2. The prop right edge is to the left of the (left+width) of the player screen, and the left of the player screen is to the left of the prop left edge.
