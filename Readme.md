@@ -19,6 +19,7 @@ Romhacks:
 - [OFOS Runway](ofos_runway/readme.md): Practice OFOS Runway
 - [Bond speed](bondspeed/readme.md): Show Bond's actual movement speed
 - [TANKBOND](tankbond/readme.md): Play the game in a tank
+- [camera obj](camera_obj/readme.md): Show conditions for camera objective
 
 # Dev Tutorials
 
