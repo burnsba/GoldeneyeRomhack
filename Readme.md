@@ -20,6 +20,7 @@ Romhacks:
 - [Bond speed](bondspeed/readme.md): Show Bond's actual movement speed
 - [TANKBOND](tankbond/readme.md): Play the game in a tank
 - [camera obj](camera_obj/readme.md): Show conditions for camera objective
+- [boost](boost/readme.md): Press the DPad for a boost.
 
 # Dev Tutorials
 
